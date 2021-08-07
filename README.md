@@ -4,7 +4,7 @@ This project github url : https://github.com/prasobhvc/dynamic-form
 
 ### `npm install`
 
-First run this comman to install all the dependencies and then start the lication   
+First run this comman to install all the dependencies and then start the application   
 
 ### `npm start`
 
