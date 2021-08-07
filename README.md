@@ -1,4 +1,4 @@
-# Getting Started with Dnamic Form
+# Getting Started with Dynamic Form
 
 This project github url : https://github.com/prasobhvc/dynamic-form
 
@@ -13,4 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+Screenshots - In the assets folder of the app
 
