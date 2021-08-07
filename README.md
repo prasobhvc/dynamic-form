@@ -1,6 +1,6 @@
 # Getting Started with Dynamic Form
 
-This project github url : https://github.com/prasobhvc/dynamic-form
+This project github url : https://github.com/prasobhvc/dynamic-form-js
 
 ### `npm install`
 
