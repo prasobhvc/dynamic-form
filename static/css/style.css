@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+label {
+    margin-right: 10px;
+}
+select {
+    padding: 3px;
+}
+#container {
+    margin: 10px;
+}
+#content, .meta {
+    display: flex;
+}
+#form-meta, #form-render {
+    flex: 1;
+    height: 525px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.meta {
+    margin-bottom: 10px;
+}
+.meta > div > input{
+    border: none;
+    border-bottom: 1px dashed #ccc;
+}
+.meta > div > input,
+.meta > div > select {
+    width: 150px;
+    outline: none;
+}
+.meta > label, .meta > div {
+    flex: 1;
+}
+#add-meta, button {
+    float: right;
+    color: #fff;
+    border: none;
+    background-color: #266DFF;
+    padding: 10px 20px;
+}
+.form-control, .meta-prop{
+    margin-bottom: 10px;
+}
+#render {
+    height: 320px;
+    overflow: auto;
+}
+#metadata {
+    max-height: 200px;
+    overflow: auto;
+}
+.meta-prop{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.meta-prop > label {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    background-color: #f7f5f5;
+    margin-bottom: 10px;
+}
+#gjson {
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 15px;
+}
+#gjson textarea {
+    width: 96%;
+}
+.invalid + .error{
+    display: block;
+}
+.error{
+    display: none;
+    font-size: 14px;
+    color: #f44336;
+    margin: 0;
+}

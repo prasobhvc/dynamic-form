@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Form</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Dynamic form</h1>
+            <div id="content">
+                <div id="form-meta">
+                    <div id="metadata"></div>
+                    <div>
+                        <h3>Add New Inputs</h3>
+                        <div class="meta">
+                            <label>Select Input Type</label>
+                            <div>
+                                <select id="input-type">
+                                    <option>--Select--</option>
+                                    <option>Text</option>
+                                    <option>Date</option>
+                                    <option>Password</option>
+                                    <option>Email</option>
+                                    <option>Radio</option>
+                                    <option>Checkbox</option>
+                                </select>
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <label>Specify Max Length</label>
+                            <div>
+                                <input type="text" id="max-length" value="">
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <label>Specify Label</label>
+                            <div>
+                                <input type="text" id="label-text" value="">
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <label>Specify Min Date</label>
+                            <div>
+                                <input type="date" id="min-date" value="">
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <label>Specify Max Date</label>
+                            <div>
+                                <input type="date" id="max-date" value="">
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <label>Specify Background Color</label> 
+                            <div>
+                                <input type="color" id="bg-color" value=""> Picker
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <label>Specify Text Color</label>
+                            <div>
+                                <input type="color" id="txt-color" value=""> Picker
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                        <input type="button" id="add-meta" onclick="createDynamicForm()" value="ADD">
+                    </div>
+                </div>
+                <div id="form-render">
+                    <h2>Rendered version of metadata</h2>
+                    <div id="render"></div>
+                    <div id="gjson">
+                        <h3>Generated Meta</h3>
+                        <textarea id="jsonarea" rows="4" cols="100"></textarea>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="/js/dynamic-form.js"></script>
+    </body>
+</html>
